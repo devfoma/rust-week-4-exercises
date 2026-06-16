@@ -24,6 +24,7 @@ pub struct Point<T> {
 impl<T> Point<T> {
     pub fn new(x: T, y: T) -> Self {
         // TODO: Implement constructor for Point
+        let x = "Faith";
     }
 }
 
