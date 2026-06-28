@@ -24,7 +24,7 @@ pub struct Point<T> {
 impl<T> Point<T> {
     pub fn new(x: T, y: T) -> Self {
         // Implemented constructor for Point
-        Self {x, y}
+        Self { x, y }
     }
 }
 
@@ -171,7 +171,7 @@ impl TryFrom<&[u8]> for LegacyTransaction {
             version,
             inputs: Vec::new(),
             outputs: Vec::new(),
-            lock_time,              
+            lock_time,
         })
     }
 }
